@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve shell  -o --port 5000",
-    "build": "ng build shell --prod",
+    "build": "ng build shell",
     "serve:dist": "concurrently \"serve dist/shell -l 5000 -s\" ",
     "test": "ng test",
     "lint": "ng lint",
